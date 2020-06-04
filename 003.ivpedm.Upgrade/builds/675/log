@@ -1,0 +1,18 @@
+Started by timer
+Running as SYSTEM
+Building in workspace D:\Program Files (x86)\Jenkins\workspace\003.ivpedm.Upgrade
+[003.ivpedm.Upgrade] $ cmd /c call C:\Windows\TEMP\jenkins3695776419000931430.bat
+
+D:\Program Files (x86)\Jenkins\workspace\003.ivpedm.Upgrade>dir
+ Volume in drive D has no label.
+ Volume Serial Number is F620-1F6F
+
+ Directory of D:\Program Files (x86)\Jenkins\workspace\003.ivpedm.Upgrade
+
+04/21/2020  01:41 PM    <DIR>          .
+04/21/2020  01:41 PM    <DIR>          ..
+               0 File(s)              0 bytes
+               2 Dir(s)   6,953,791,488 bytes free
+
+D:\Program Files (x86)\Jenkins\workspace\003.ivpedm.Upgrade>exit 0 
+Finished: SUCCESS

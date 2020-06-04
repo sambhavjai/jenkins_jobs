@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: NewType
+Build-Jdk: 1.8.0_112
+Extension-Name: dotnet-as-script
+Specification-Title: This jenkins plugin able you to run c# code as a 
+ build step.
+Implementation-Title: dotnet-as-script
+Implementation-Version: 1.0.2
+Group-Id: org.jenkins-ci.plugins
+Short-Name: dotnet-as-script
+Long-Name: DotNet as Script
+Url: https://wiki.jenkins-ci.org/display/JENKINS/DotNet+as+script+plugin
+Plugin-Version: 1.0.2
+Hudson-Version: 1.625.3
+Jenkins-Version: 1.625.3
+Plugin-Dependencies: envinject:1.93.1
+Plugin-Developers: Ariel Lenis:ariel_lenis:ariel.lenisd@gmail.com
+
