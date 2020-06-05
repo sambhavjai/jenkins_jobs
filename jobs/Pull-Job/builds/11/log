@@ -1,0 +1,216 @@
+Started by user [8mha:////4BJeFksMyzdo9wbvqDctnfqKYcnTozsTATZ3JmlDCrGkAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZu/dLi1CL9xJTczDwA4LbuW8AAAAA=[0mSambhav Jain
+Running as SYSTEM
+[EnvInject] - Loading node environment variables.
+Building in workspace C:\Program Files (x86)\Jenkins\workspace\Pull-Job
+No credentials specified
+ > git.exe rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git.exe config remote.origin.url https://github.com/sambhavjai/jenkins_jobs.git # timeout=10
+Fetching upstream changes from https://github.com/sambhavjai/jenkins_jobs.git
+ > git.exe --version # timeout=10
+ > git.exe fetch --tags --progress -- https://github.com/sambhavjai/jenkins_jobs.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/origin/master^{commit}" # timeout=10
+Checking out Revision 5b6fb365231da78c3f3c813cdfdf519014dc59ce (refs/remotes/origin/master)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f 5b6fb365231da78c3f3c813cdfdf519014dc59ce # timeout=10
+Commit message: "added batch file for auto restart of jenkins"
+ > git.exe rev-list --no-walk cfe66b33bdcb032f732d143dfe331ccb91641cab # timeout=10
+[Pull-Job] $ cmd /c call C:\WINDOWS\TEMP\jenkins3448797952576101780.bat
+
+C:\Program Files (x86)\Jenkins\workspace\Pull-Job>cd "c:/PROGRAM FILES (x86)/Jenkins/Jobs" 
+
+c:\Program Files (x86)\Jenkins\jobs>mkdir 001.ivpedm.Prechecks 
+
+c:\Program Files (x86)\Jenkins\jobs>mkdir 002.ivpedm.FreshInstaller 
+
+c:\Program Files (x86)\Jenkins\jobs>mkdir 003.ivpedm.Upgrade 
+
+c:\Program Files (x86)\Jenkins\jobs>xcopy "c:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/001.ivpedm.Prechecks" "c:/PROGRAM FILES (x86)/Jenkins/Jobs/001.ivpedm.Prechecks" /E /H /Y 
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/001.ivpedm.Prechecks\config.xml
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/001.ivpedm.Prechecks\nextBuildNumber
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/001.ivpedm.Prechecks\builds\legacyIds
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/001.ivpedm.Prechecks\builds\permalinks
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/001.ivpedm.Prechecks\builds\677\build.xml
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/001.ivpedm.Prechecks\builds\677\changelog.xml
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/001.ivpedm.Prechecks\builds\677\log
+7 File(s) copied
+
+c:\Program Files (x86)\Jenkins\jobs>xcopy "c:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/002.ivpedm.FreshInstaller" "c:/PROGRAM FILES (x86)/Jenkins/Jobs/002.ivpedm.FreshInstaller" /E /H /Y 
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/002.ivpedm.FreshInstaller\config.xml
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/002.ivpedm.FreshInstaller\nextBuildNumber
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/002.ivpedm.FreshInstaller\builds\legacyIds
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/002.ivpedm.FreshInstaller\builds\permalinks
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/002.ivpedm.FreshInstaller\builds\678\build.xml
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/002.ivpedm.FreshInstaller\builds\678\changelog.xml
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/002.ivpedm.FreshInstaller\builds\678\log
+7 File(s) copied
+
+c:\Program Files (x86)\Jenkins\jobs>xcopy "c:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/003.ivpedm.Upgrade" "c:/PROGRAM FILES (x86)/Jenkins/Jobs/003.ivpedm.Upgrade" /E /H /Y 
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/003.ivpedm.Upgrade\config.xml
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/003.ivpedm.Upgrade\nextBuildNumber
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/003.ivpedm.Upgrade\builds\legacyIds
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/003.ivpedm.Upgrade\builds\permalinks
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/003.ivpedm.Upgrade\builds\675\build.xml
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/003.ivpedm.Upgrade\builds\675\changelog.xml
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/003.ivpedm.Upgrade\builds\675\log
+7 File(s) copied
+
+c:\Program Files (x86)\Jenkins\jobs>xcopy "c:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins" "c:/PROGRAM FILES (x86)/Jenkins/plugins" /E /H /Y 
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\bouncycastle-api.jpi
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\command-launcher.jpi
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\dotnet-as-script.jpi
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\envinject-api.jpi
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\envinject.jpi
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\jdk-tool.jpi
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\junit.jpi
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\matrix-project.jpi
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\scm-api.jpi
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\script-security.jpi
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\structs.jpi
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\trilead-api.jpi
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\workflow-api.jpi
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\workflow-step-api.jpi
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\bouncycastle-api\.timestamp2
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\bouncycastle-api\META-INF\MANIFEST.MF
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\bouncycastle-api\META-INF\maven\org.jenkins-ci.plugins\bouncycastle-api\pom.properties
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\bouncycastle-api\META-INF\maven\org.jenkins-ci.plugins\bouncycastle-api\pom.xml
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\bouncycastle-api\WEB-INF\licenses.xml
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\bouncycastle-api\WEB-INF\lib\bcpkix-jdk15on-1.64.jar
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\bouncycastle-api\WEB-INF\lib\bcprov-jdk15on-1.64.jar
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\bouncycastle-api\WEB-INF\lib\bouncycastle-api.jar
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\command-launcher\.timestamp2
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\command-launcher\META-INF\MANIFEST.MF
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\command-launcher\META-INF\maven\org.jenkins-ci.plugins\command-launcher\pom.properties
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\command-launcher\META-INF\maven\org.jenkins-ci.plugins\command-launcher\pom.xml
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\command-launcher\WEB-INF\licenses.xml
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\command-launcher\WEB-INF\lib\command-launcher.jar
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\dotnet-as-script\.timestamp2
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\dotnet-as-script\META-INF\MANIFEST.MF
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\dotnet-as-script\META-INF\maven\org.jenkins-ci.plugins\dotnet-as-script\pom.properties
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\dotnet-as-script\META-INF\maven\org.jenkins-ci.plugins\dotnet-as-script\pom.xml
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\dotnet-as-script\WEB-INF\licenses.xml
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\dotnet-as-script\WEB-INF\lib\dotnet-as-script.jar
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\dotnet-as-script\WEB-INF\lib\envinject-lib-1.24.jar
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\dotnet-as-script\WEB-INF\lib\json-20160810.jar
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\envinject\.timestamp2
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\envinject\help-buildStep.html
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\envinject\help-buildStep_ja.html
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\envinject\help-buildWrapper.html
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\envinject\help-buildWrapperGlobalPasswords.html
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\envinject\help-buildWrapperGlobalPasswords_ja.html
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\envinject\help-buildWrapperMaskPasswordParameters.html
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\envinject\help-buildWrapper_ja.html
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\envinject\help-node.html
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\envinject\help-node_ja.html
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\envinject\help-unsetSystemVariables.html
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\envinject\help-unsetSystemVariables_ja.html
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\envinject\help.html
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\envinject\help_ja.html
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\envinject\META-INF\MANIFEST.MF
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\envinject\META-INF\maven\org.jenkins-ci.plugins\envinject\pom.properties
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\envinject\META-INF\maven\org.jenkins-ci.plugins\envinject\pom.xml
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\envinject\WEB-INF\licenses.xml
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\envinject\WEB-INF\lib\envinject.jar
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\envinject\WEB-INF\lib\objenesis-3.0.1.jar
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\envinject-api\.timestamp2
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\envinject-api\META-INF\MANIFEST.MF
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\envinject-api\META-INF\maven\org.jenkins-ci.plugins\envinject-api\pom.properties
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\envinject-api\META-INF\maven\org.jenkins-ci.plugins\envinject-api\pom.xml
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\envinject-api\WEB-INF\licenses.xml
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\envinject-api\WEB-INF\lib\envinject-api.jar
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\envinject-api\WEB-INF\lib\envinject-lib-1.29.jar
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\jdk-tool\.timestamp2
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\jdk-tool\META-INF\MANIFEST.MF
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\jdk-tool\META-INF\maven\org.jenkins-ci.plugins\jdk-tool\pom.properties
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\jdk-tool\META-INF\maven\org.jenkins-ci.plugins\jdk-tool\pom.xml
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\jdk-tool\WEB-INF\licenses.xml
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\jdk-tool\WEB-INF\lib\jdk-tool.jar
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\junit\.timestamp2
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\junit\META-INF\MANIFEST.MF
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\junit\META-INF\maven\org.jenkins-ci.plugins\junit\pom.properties
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\junit\META-INF\maven\org.jenkins-ci.plugins\junit\pom.xml
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\junit\WEB-INF\licenses.xml
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\junit\WEB-INF\lib\junit.jar
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\matrix-project\.timestamp2
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\matrix-project\help\matrix\axes.html
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\matrix-project\help\matrix\axes_de.html
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\matrix-project\help\matrix\axes_fr.html
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\matrix-project\help\matrix\axes_ja.html
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\matrix-project\help\matrix\axes_nl.html
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\matrix-project\help\matrix\axes_pt_BR.html
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\matrix-project\help\matrix\axes_ru.html
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\matrix-project\help\matrix\axes_tr.html
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\matrix-project\help\matrix\axes_zh_TW.html
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\matrix-project\help\matrix\combinationfilter.html
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\matrix-project\help\matrix\combinationfilter_de.html
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\matrix-project\help\matrix\combinationfilter_fr.html
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\matrix-project\help\matrix\combinationfilter_ja.html
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\matrix-project\help\matrix\combinationfilter_zh_TW.html
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\matrix-project\help\matrix\jdk.html
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\matrix-project\help\matrix\jdk_de.html
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\matrix-project\help\matrix\jdk_fr.html
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\matrix-project\help\matrix\jdk_ja.html
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\matrix-project\help\matrix\jdk_nl.html
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\matrix-project\help\matrix\jdk_pt_BR.html
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\matrix-project\help\matrix\jdk_ru.html
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\matrix-project\help\matrix\jdk_tr.html
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\matrix-project\help\matrix\jdk_zh_TW.html
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\matrix-project\images\48x48\matrixproject.png
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\matrix-project\META-INF\MANIFEST.MF
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\matrix-project\META-INF\maven\org.jenkins-ci.plugins\matrix-project\pom.properties
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\matrix-project\META-INF\maven\org.jenkins-ci.plugins\matrix-project\pom.xml
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\matrix-project\WEB-INF\licenses.xml
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\matrix-project\WEB-INF\lib\matrix-project.jar
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\scm-api\.timestamp2
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\scm-api\META-INF\MANIFEST.MF
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\scm-api\META-INF\maven\org.jenkins-ci.plugins\scm-api\pom.properties
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\scm-api\META-INF\maven\org.jenkins-ci.plugins\scm-api\pom.xml
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\scm-api\WEB-INF\licenses.xml
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\scm-api\WEB-INF\lib\scm-api.jar
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\script-security\.timestamp2
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\script-security\META-INF\MANIFEST.MF
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\script-security\META-INF\maven\org.jenkins-ci.plugins\script-security\pom.properties
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\script-security\META-INF\maven\org.jenkins-ci.plugins\script-security\pom.xml
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\script-security\WEB-INF\licenses.xml
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\script-security\WEB-INF\lib\caffeine-2.8.2.jar
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\script-security\WEB-INF\lib\checker-qual-3.3.0.jar
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\script-security\WEB-INF\lib\error_prone_annotations-2.3.4.jar
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\script-security\WEB-INF\lib\groovy-sandbox-1.26.jar
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\script-security\WEB-INF\lib\script-security.jar
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\structs\.timestamp2
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\structs\META-INF\MANIFEST.MF
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\structs\META-INF\maven\org.jenkins-ci.plugins\structs\pom.properties
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\structs\META-INF\maven\org.jenkins-ci.plugins\structs\pom.xml
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\structs\WEB-INF\licenses.xml
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\structs\WEB-INF\lib\structs.jar
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\structs\WEB-INF\lib\symbol-annotation-1.20.jar
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\trilead-api\.timestamp2
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\trilead-api\META-INF\MANIFEST.MF
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\trilead-api\META-INF\maven\org.jenkins-ci.plugins\trilead-api\pom.properties
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\trilead-api\META-INF\maven\org.jenkins-ci.plugins\trilead-api\pom.xml
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\trilead-api\WEB-INF\licenses.xml
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\trilead-api\WEB-INF\lib\eddsa-0.3.0.jar
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\trilead-api\WEB-INF\lib\jbcrypt-1.0.0.jar
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\trilead-api\WEB-INF\lib\trilead-api.jar
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\trilead-api\WEB-INF\lib\trilead-putty-extension-1.2.jar
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\trilead-api\WEB-INF\lib\trilead-ssh2-build-217-jenkins-19.jar
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\workflow-api\.timestamp2
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\workflow-api\META-INF\MANIFEST.MF
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\workflow-api\META-INF\maven\org.jenkins-ci.plugins.workflow\workflow-api\pom.properties
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\workflow-api\META-INF\maven\org.jenkins-ci.plugins.workflow\workflow-api\pom.xml
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\workflow-api\WEB-INF\licenses.xml
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\workflow-api\WEB-INF\lib\workflow-api.jar
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\workflow-step-api\.timestamp2
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\workflow-step-api\META-INF\MANIFEST.MF
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\workflow-step-api\META-INF\maven\org.jenkins-ci.plugins.workflow\workflow-step-api\pom.properties
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\workflow-step-api\META-INF\maven\org.jenkins-ci.plugins.workflow\workflow-step-api\pom.xml
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\workflow-step-api\WEB-INF\licenses.xml
+C:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/plugins\workflow-step-api\WEB-INF\lib\workflow-step-api.jar
+150 File(s) copied
+
+c:\Program Files (x86)\Jenkins\jobs>cd "c:/PROGRAM FILES (x86)/Jenkins/workspace/Pull-Job/" 
+
+c:\Program Files (x86)\Jenkins\workspace\Pull-Job>test
+Requesting administrative privileges...
+Finished: SUCCESS

@@ -1,0 +1,10 @@
+commit 5b6fb365231da78c3f3c813cdfdf519014dc59ce
+tree 30eec4ad3e017b03a7fae706a90204b88ed98286
+parent cfe66b33bdcb032f732d143dfe331ccb91641cab
+author sambhavjai <38015768+sambhavjai@users.noreply.github.com> 2020-06-04 14:48:34 +0530
+committer sambhavjai <38015768+sambhavjai@users.noreply.github.com> 2020-06-04 14:48:34 +0530
+
+    added batch file for auto restart of jenkins
+
+
+:000000 100644 0000000000000000000000000000000000000000 8acc2cf8f38ccb7cec8c231f8f530c6b45743616 A	test.bat

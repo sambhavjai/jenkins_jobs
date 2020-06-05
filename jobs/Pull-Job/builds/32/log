@@ -1,0 +1,217 @@
+Started by user [8mha:////4BJeFksMyzdo9wbvqDctnfqKYcnTozsTATZ3JmlDCrGkAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZu/dLi1CL9xJTczDwA4LbuW8AAAAA=[0mSambhav Jain
+Running as SYSTEM
+[EnvInject] - Loading node environment variables.
+Building in workspace C:\Program Files (x86)\Jenkins\workspace\Pull-Job
+No credentials specified
+ > git.exe rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git.exe config remote.origin.url https://github.com/sambhavjai/jenkins_jobs.git # timeout=10
+Fetching upstream changes from https://github.com/sambhavjai/jenkins_jobs.git
+ > git.exe --version # timeout=10
+ > git.exe fetch --tags --progress -- https://github.com/sambhavjai/jenkins_jobs.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/origin/master^{commit}" # timeout=10
+Checking out Revision d82e328ed7ff2a1ab175dcfab540e17dc2a450ef (refs/remotes/origin/master)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f d82e328ed7ff2a1ab175dcfab540e17dc2a450ef # timeout=10
+Commit message: "commit"
+ > git.exe rev-list --no-walk d82e328ed7ff2a1ab175dcfab540e17dc2a450ef # timeout=10
+[Pull-Job] $ cmd /c call C:\WINDOWS\TEMP\jenkins3973631131884830276.bat
+
+C:\Program Files (x86)\Jenkins\workspace\Pull-Job>dir
+ Volume in drive C is Windows
+ Volume Serial Number is CE0E-CC4B
+
+ Directory of C:\Program Files (x86)\Jenkins\workspace\Pull-Job
+
+04-06-2020  18:49    <DIR>          .
+04-06-2020  18:49    <DIR>          ..
+04-06-2020  18:49             2,357 config.xml
+04-06-2020  18:49    <DIR>          jobs
+04-06-2020  18:49    <DIR>          plugins
+04-06-2020  13:16                57 README.md
+               2 File(s)          2,414 bytes
+               4 Dir(s)  603,731,111,936 bytes free
+
+C:\Program Files (x86)\Jenkins\workspace\Pull-Job>xcopy "jobs" "../../Jobs" /E /H /Y 
+jobs\001.ivpedm.Prechecks\config.xml
+jobs\001.ivpedm.Prechecks\nextBuildNumber
+jobs\001.ivpedm.Prechecks\builds\legacyIds
+jobs\001.ivpedm.Prechecks\builds\permalinks
+jobs\001.ivpedm.Prechecks\builds\677\build.xml
+jobs\001.ivpedm.Prechecks\builds\677\changelog.xml
+jobs\001.ivpedm.Prechecks\builds\677\log
+jobs\002.ivpedm.FreshInstaller\config.xml
+jobs\002.ivpedm.FreshInstaller\nextBuildNumber
+jobs\002.ivpedm.FreshInstaller\builds\legacyIds
+jobs\002.ivpedm.FreshInstaller\builds\permalinks
+jobs\002.ivpedm.FreshInstaller\builds\678\build.xml
+jobs\002.ivpedm.FreshInstaller\builds\678\changelog.xml
+jobs\002.ivpedm.FreshInstaller\builds\678\log
+jobs\003.ivpedm.Upgrade\config.xml
+jobs\003.ivpedm.Upgrade\nextBuildNumber
+jobs\003.ivpedm.Upgrade\builds\legacyIds
+jobs\003.ivpedm.Upgrade\builds\permalinks
+jobs\003.ivpedm.Upgrade\builds\675\build.xml
+jobs\003.ivpedm.Upgrade\builds\675\changelog.xml
+jobs\003.ivpedm.Upgrade\builds\675\log
+21 File(s) copied
+
+C:\Program Files (x86)\Jenkins\workspace\Pull-Job>xcopy "plugins" "../../plugins" /E /H /Y 
+plugins\bouncycastle-api.jpi
+plugins\command-launcher.jpi
+plugins\dotnet-as-script.jpi
+plugins\envinject-api.jpi
+plugins\envinject.jpi
+plugins\jdk-tool.jpi
+plugins\junit.jpi
+plugins\matrix-project.jpi
+plugins\scm-api.jpi
+plugins\script-security.jpi
+plugins\structs.jpi
+plugins\trilead-api.jpi
+plugins\workflow-api.jpi
+plugins\workflow-step-api.jpi
+plugins\bouncycastle-api\.timestamp2
+plugins\bouncycastle-api\META-INF\MANIFEST.MF
+plugins\bouncycastle-api\META-INF\maven\org.jenkins-ci.plugins\bouncycastle-api\pom.properties
+plugins\bouncycastle-api\META-INF\maven\org.jenkins-ci.plugins\bouncycastle-api\pom.xml
+plugins\bouncycastle-api\WEB-INF\licenses.xml
+plugins\bouncycastle-api\WEB-INF\lib\bcpkix-jdk15on-1.64.jar
+plugins\bouncycastle-api\WEB-INF\lib\bcprov-jdk15on-1.64.jar
+plugins\bouncycastle-api\WEB-INF\lib\bouncycastle-api.jar
+plugins\command-launcher\.timestamp2
+plugins\command-launcher\META-INF\MANIFEST.MF
+plugins\command-launcher\META-INF\maven\org.jenkins-ci.plugins\command-launcher\pom.properties
+plugins\command-launcher\META-INF\maven\org.jenkins-ci.plugins\command-launcher\pom.xml
+plugins\command-launcher\WEB-INF\licenses.xml
+plugins\command-launcher\WEB-INF\lib\command-launcher.jar
+plugins\dotnet-as-script\.timestamp2
+plugins\dotnet-as-script\META-INF\MANIFEST.MF
+plugins\dotnet-as-script\META-INF\maven\org.jenkins-ci.plugins\dotnet-as-script\pom.properties
+plugins\dotnet-as-script\META-INF\maven\org.jenkins-ci.plugins\dotnet-as-script\pom.xml
+plugins\dotnet-as-script\WEB-INF\licenses.xml
+plugins\dotnet-as-script\WEB-INF\lib\dotnet-as-script.jar
+plugins\dotnet-as-script\WEB-INF\lib\envinject-lib-1.24.jar
+plugins\dotnet-as-script\WEB-INF\lib\json-20160810.jar
+plugins\envinject\.timestamp2
+plugins\envinject\help-buildStep.html
+plugins\envinject\help-buildStep_ja.html
+plugins\envinject\help-buildWrapper.html
+plugins\envinject\help-buildWrapperGlobalPasswords.html
+plugins\envinject\help-buildWrapperGlobalPasswords_ja.html
+plugins\envinject\help-buildWrapperMaskPasswordParameters.html
+plugins\envinject\help-buildWrapper_ja.html
+plugins\envinject\help-node.html
+plugins\envinject\help-node_ja.html
+plugins\envinject\help-unsetSystemVariables.html
+plugins\envinject\help-unsetSystemVariables_ja.html
+plugins\envinject\help.html
+plugins\envinject\help_ja.html
+plugins\envinject\META-INF\MANIFEST.MF
+plugins\envinject\META-INF\maven\org.jenkins-ci.plugins\envinject\pom.properties
+plugins\envinject\META-INF\maven\org.jenkins-ci.plugins\envinject\pom.xml
+plugins\envinject\WEB-INF\licenses.xml
+plugins\envinject\WEB-INF\lib\envinject.jar
+plugins\envinject\WEB-INF\lib\objenesis-3.0.1.jar
+plugins\envinject-api\.timestamp2
+plugins\envinject-api\META-INF\MANIFEST.MF
+plugins\envinject-api\META-INF\maven\org.jenkins-ci.plugins\envinject-api\pom.properties
+plugins\envinject-api\META-INF\maven\org.jenkins-ci.plugins\envinject-api\pom.xml
+plugins\envinject-api\WEB-INF\licenses.xml
+plugins\envinject-api\WEB-INF\lib\envinject-api.jar
+plugins\envinject-api\WEB-INF\lib\envinject-lib-1.29.jar
+plugins\jdk-tool\.timestamp2
+plugins\jdk-tool\META-INF\MANIFEST.MF
+plugins\jdk-tool\META-INF\maven\org.jenkins-ci.plugins\jdk-tool\pom.properties
+plugins\jdk-tool\META-INF\maven\org.jenkins-ci.plugins\jdk-tool\pom.xml
+plugins\jdk-tool\WEB-INF\licenses.xml
+plugins\jdk-tool\WEB-INF\lib\jdk-tool.jar
+plugins\junit\.timestamp2
+plugins\junit\META-INF\MANIFEST.MF
+plugins\junit\META-INF\maven\org.jenkins-ci.plugins\junit\pom.properties
+plugins\junit\META-INF\maven\org.jenkins-ci.plugins\junit\pom.xml
+plugins\junit\WEB-INF\licenses.xml
+plugins\junit\WEB-INF\lib\junit.jar
+plugins\matrix-project\.timestamp2
+plugins\matrix-project\help\matrix\axes.html
+plugins\matrix-project\help\matrix\axes_de.html
+plugins\matrix-project\help\matrix\axes_fr.html
+plugins\matrix-project\help\matrix\axes_ja.html
+plugins\matrix-project\help\matrix\axes_nl.html
+plugins\matrix-project\help\matrix\axes_pt_BR.html
+plugins\matrix-project\help\matrix\axes_ru.html
+plugins\matrix-project\help\matrix\axes_tr.html
+plugins\matrix-project\help\matrix\axes_zh_TW.html
+plugins\matrix-project\help\matrix\combinationfilter.html
+plugins\matrix-project\help\matrix\combinationfilter_de.html
+plugins\matrix-project\help\matrix\combinationfilter_fr.html
+plugins\matrix-project\help\matrix\combinationfilter_ja.html
+plugins\matrix-project\help\matrix\combinationfilter_zh_TW.html
+plugins\matrix-project\help\matrix\jdk.html
+plugins\matrix-project\help\matrix\jdk_de.html
+plugins\matrix-project\help\matrix\jdk_fr.html
+plugins\matrix-project\help\matrix\jdk_ja.html
+plugins\matrix-project\help\matrix\jdk_nl.html
+plugins\matrix-project\help\matrix\jdk_pt_BR.html
+plugins\matrix-project\help\matrix\jdk_ru.html
+plugins\matrix-project\help\matrix\jdk_tr.html
+plugins\matrix-project\help\matrix\jdk_zh_TW.html
+plugins\matrix-project\images\48x48\matrixproject.png
+plugins\matrix-project\META-INF\MANIFEST.MF
+plugins\matrix-project\META-INF\maven\org.jenkins-ci.plugins\matrix-project\pom.properties
+plugins\matrix-project\META-INF\maven\org.jenkins-ci.plugins\matrix-project\pom.xml
+plugins\matrix-project\WEB-INF\licenses.xml
+plugins\matrix-project\WEB-INF\lib\matrix-project.jar
+plugins\scm-api\.timestamp2
+plugins\scm-api\META-INF\MANIFEST.MF
+plugins\scm-api\META-INF\maven\org.jenkins-ci.plugins\scm-api\pom.properties
+plugins\scm-api\META-INF\maven\org.jenkins-ci.plugins\scm-api\pom.xml
+plugins\scm-api\WEB-INF\licenses.xml
+plugins\scm-api\WEB-INF\lib\scm-api.jar
+plugins\script-security\.timestamp2
+plugins\script-security\META-INF\MANIFEST.MF
+plugins\script-security\META-INF\maven\org.jenkins-ci.plugins\script-security\pom.properties
+plugins\script-security\META-INF\maven\org.jenkins-ci.plugins\script-security\pom.xml
+plugins\script-security\WEB-INF\licenses.xml
+plugins\script-security\WEB-INF\lib\caffeine-2.8.2.jar
+plugins\script-security\WEB-INF\lib\checker-qual-3.3.0.jar
+plugins\script-security\WEB-INF\lib\error_prone_annotations-2.3.4.jar
+plugins\script-security\WEB-INF\lib\groovy-sandbox-1.26.jar
+plugins\script-security\WEB-INF\lib\script-security.jar
+plugins\structs\.timestamp2
+plugins\structs\META-INF\MANIFEST.MF
+plugins\structs\META-INF\maven\org.jenkins-ci.plugins\structs\pom.properties
+plugins\structs\META-INF\maven\org.jenkins-ci.plugins\structs\pom.xml
+plugins\structs\WEB-INF\licenses.xml
+plugins\structs\WEB-INF\lib\structs.jar
+plugins\structs\WEB-INF\lib\symbol-annotation-1.20.jar
+plugins\trilead-api\.timestamp2
+plugins\trilead-api\META-INF\MANIFEST.MF
+plugins\trilead-api\META-INF\maven\org.jenkins-ci.plugins\trilead-api\pom.properties
+plugins\trilead-api\META-INF\maven\org.jenkins-ci.plugins\trilead-api\pom.xml
+plugins\trilead-api\WEB-INF\licenses.xml
+plugins\trilead-api\WEB-INF\lib\eddsa-0.3.0.jar
+plugins\trilead-api\WEB-INF\lib\jbcrypt-1.0.0.jar
+plugins\trilead-api\WEB-INF\lib\trilead-api.jar
+plugins\trilead-api\WEB-INF\lib\trilead-putty-extension-1.2.jar
+plugins\trilead-api\WEB-INF\lib\trilead-ssh2-build-217-jenkins-19.jar
+plugins\workflow-api\.timestamp2
+plugins\workflow-api\META-INF\MANIFEST.MF
+plugins\workflow-api\META-INF\maven\org.jenkins-ci.plugins.workflow\workflow-api\pom.properties
+plugins\workflow-api\META-INF\maven\org.jenkins-ci.plugins.workflow\workflow-api\pom.xml
+plugins\workflow-api\WEB-INF\licenses.xml
+plugins\workflow-api\WEB-INF\lib\workflow-api.jar
+plugins\workflow-step-api\.timestamp2
+plugins\workflow-step-api\META-INF\MANIFEST.MF
+plugins\workflow-step-api\META-INF\maven\org.jenkins-ci.plugins.workflow\workflow-step-api\pom.properties
+plugins\workflow-step-api\META-INF\maven\org.jenkins-ci.plugins.workflow\workflow-step-api\pom.xml
+plugins\workflow-step-api\WEB-INF\licenses.xml
+plugins\workflow-step-api\WEB-INF\lib\workflow-step-api.jar
+150 File(s) copied
+
+C:\Program Files (x86)\Jenkins\workspace\Pull-Job>copy config.xml "../../" /Y 
+        1 file(s) copied.
+
+C:\Program Files (x86)\Jenkins\workspace\Pull-Job>exit 0 
+Finished: SUCCESS

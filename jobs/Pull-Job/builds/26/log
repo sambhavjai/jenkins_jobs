@@ -1,0 +1,61 @@
+Started by user [8mha:////4BJeFksMyzdo9wbvqDctnfqKYcnTozsTATZ3JmlDCrGkAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZu/dLi1CL9xJTczDwA4LbuW8AAAAA=[0mSambhav Jain
+Running as SYSTEM
+[EnvInject] - Loading node environment variables.
+Building in workspace C:\Program Files (x86)\Jenkins\workspace\Pull-Job
+No credentials specified
+ > git.exe rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git.exe config remote.origin.url https://github.com/sambhavjai/jenkins_jobs.git # timeout=10
+Fetching upstream changes from https://github.com/sambhavjai/jenkins_jobs.git
+ > git.exe --version # timeout=10
+ > git.exe fetch --tags --progress -- https://github.com/sambhavjai/jenkins_jobs.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/origin/master^{commit}" # timeout=10
+Checking out Revision d82e328ed7ff2a1ab175dcfab540e17dc2a450ef (refs/remotes/origin/master)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f d82e328ed7ff2a1ab175dcfab540e17dc2a450ef # timeout=10
+Commit message: "commit"
+ > git.exe rev-list --no-walk d82e328ed7ff2a1ab175dcfab540e17dc2a450ef # timeout=10
+[Pull-Job] $ cmd /c call C:\WINDOWS\TEMP\jenkins8153689234173567099.bat
+
+C:\Program Files (x86)\Jenkins\workspace\Pull-Job>dir
+ Volume in drive C is Windows
+ Volume Serial Number is CE0E-CC4B
+
+ Directory of C:\Program Files (x86)\Jenkins\workspace\Pull-Job
+
+04-06-2020  18:49    <DIR>          .
+04-06-2020  18:49    <DIR>          ..
+04-06-2020  18:49             2,357 config.xml
+04-06-2020  18:49    <DIR>          jobs
+04-06-2020  18:49    <DIR>          plugins
+04-06-2020  13:16                57 README.md
+               2 File(s)          2,414 bytes
+               4 Dir(s)  603,957,059,584 bytes free
+
+C:\Program Files (x86)\Jenkins\workspace\Pull-Job>xcopy "jobs" "../../Jobs" /E /H /Y 
+jobs\001.ivpedm.Prechecks\config.xml
+jobs\001.ivpedm.Prechecks\nextBuildNumber
+jobs\001.ivpedm.Prechecks\builds\legacyIds
+jobs\001.ivpedm.Prechecks\builds\permalinks
+jobs\001.ivpedm.Prechecks\builds\677\build.xml
+jobs\001.ivpedm.Prechecks\builds\677\changelog.xml
+jobs\001.ivpedm.Prechecks\builds\677\log
+jobs\002.ivpedm.FreshInstaller\config.xml
+jobs\002.ivpedm.FreshInstaller\nextBuildNumber
+jobs\002.ivpedm.FreshInstaller\builds\legacyIds
+jobs\002.ivpedm.FreshInstaller\builds\permalinks
+jobs\002.ivpedm.FreshInstaller\builds\678\build.xml
+jobs\002.ivpedm.FreshInstaller\builds\678\changelog.xml
+jobs\002.ivpedm.FreshInstaller\builds\678\log
+jobs\003.ivpedm.Upgrade\config.xml
+jobs\003.ivpedm.Upgrade\nextBuildNumber
+jobs\003.ivpedm.Upgrade\builds\legacyIds
+jobs\003.ivpedm.Upgrade\builds\permalinks
+jobs\003.ivpedm.Upgrade\builds\675\build.xml
+jobs\003.ivpedm.Upgrade\builds\675\changelog.xml
+jobs\003.ivpedm.Upgrade\builds\675\log
+21 File(s) copied
+
+C:\Program Files (x86)\Jenkins\workspace\Pull-Job>exit 0 
+Finished: SUCCESS
